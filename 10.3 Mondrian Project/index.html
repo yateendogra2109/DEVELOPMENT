@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 70vh;
+    }
+    .container{
+      display: grid;
+      grid-template: 414px 296px 20px/320px 351px 50px;
+    }
+    .container>*{
+      padding: 0px;
+      margin: 0px;
+    }
+    .red{
+      border:#000 solid ;
+      background-color: #E72F24 ;
+      border-width: 0px 9px 9px 0px;
+    }
+    .grey{
+      background-color:#F0F1EC
+       ;
+    }
+    .A{
+      border: #000 solid;
+      border-width: 0px 0px 9px 0px;
+    }
+    .B{
+      border: #000 solid;
+      border-width: 0px 0px 9px 0px;
+    }
+    .C{
+      border: #000 solid;
+      border-width: 0px 9px 9px 0px;
+    }
+    .D{
+      border: #000 solid;
+      border-width: 0px 9px 9px 0px;
+    }
+    .E{
+      display: flex;
+      flex-direction: column;
+
+      
+      
+    }
+    .E>*{
+      margin: 0px;
+      padding: 0px;
+    }
+    .E1{
+      flex-basis: 130px;
+      border: #000 solid;
+      border-width: 0px 0px 10px 0px ;
+      background-color: #004592;
+    }
+    .E2{
+      flex-basis: 155px;}
+    .G1{
+      flex-basis: 198px;
+      border: #000 solid;
+      border-width: 0px 10px 0px 0px ;
+      background-color: #F9D01E;
+    }
+    .G2{
+      flex-basis: 153px;
+      background-color: #232629;
+    }
+    .F{
+      border: #000 solid;
+      border-width: 0px 9px 0px 0px;
+    }
+    .G{
+      display: flex;
+      border: #000 solid;
+      border-width: 0px 9px 0px 0px;
+    }
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="red"></div>
+    <div class="grey A"></div>
+    <div class="grey B"></div>
+    <div class="grey C"></div>
+    <div class="grey D"></div>
+    <div class="grey E">
+      <div class="grey E1"></div>
+      <div class="grey E2"></div>
+
+    </div>
+    <div class="grey F"></div>
+    <div class="grey G">
+      <div class="grey G1"></div>
+      <div class="grey G2"></div>
+    </div>
+    <div class="grey"></div>
+
+    
+
+  </div>
+  <!-- Write your HTML here -->
+</body>
+
+</html>
